@@ -8,7 +8,7 @@ times_guessed = 0
 
 while times_guessed < 4 and (username != right_username or password != right_password):
     times_guessed += 1
-    print(f"Kirjautumistiedot väärin! Yrityksiä jäljellä {5-times_guessed} Yritä uudestaan.p")
+    print(f"Kirjautumistiedot väärin! Yrityksiä jäljellä {5-times_guessed} Yritä uudestaan.")
     username = input("Syötä käyttäjätunnus: ")
     password = input("Syötä salasana: ")
 
