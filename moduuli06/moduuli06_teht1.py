@@ -6,7 +6,7 @@ if __name__ == '__main__':
 
     rolled_number = dice_roll()
     times_rolled = 1
-    print(rolled_number)
+    print(f"Heitit noppaa ja sait silmäluvuksi {rolled_number}:n")
 
     while rolled_number != 6:
         times_rolled += 1
