@@ -9,7 +9,7 @@ while True:
         print("Aiemmin syötetty nimi")
     else:
         print("Uusi nimi")
-    set_of_names.add(name_input)
+        set_of_names.add(name_input)
 
 for name in set_of_names:
     print(name)
